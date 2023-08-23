@@ -1,0 +1,14 @@
+tables in mysql database
+
+database name is "bookmysaloon"
+
+1.user( id(A.I.), name(text), email(text), password(text) )
+
+2.shopkeeper( id(A.I.), name(text), email(text), password(text) )
+
+3.add_saloon( id(A.I.), name_of_saloon(text), location(text), contact(text), image(varchar(255)), shopkeeper_name(text), shopkeeper_email(text) )
+
+4.booking( id(A.I.), user_name(text), user_email(text), saloon_name(text), saloon_location(text), saloon_contact(text), saloon_date(text), time_slot(text), shopkeeper_name(text), shopkeeper_email(text) )
+
+admin(admin@gmail.com, admin123)
+
